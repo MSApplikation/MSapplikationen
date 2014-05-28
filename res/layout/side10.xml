@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <ImageButton
+            android:id="@+id/registrer_mad_tilbage"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="92dp"
+            android:background="@drawable/tilbage"
+            android:src="@null" />
+    </FrameLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/frameLayout1"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/mSStatus10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:text="MS Status"
+        android:textSize="29sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/oversigt5"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/oversigt5"
+        android:background="@null"
+        android:src="@drawable/batt2" />
+
+    <ImageButton
+        android:id="@+id/ImageButton01"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/imageButton3"
+        android:background="@null"
+        android:src="@drawable/batt3" />
+
+    <ImageButton
+        android:id="@+id/ImageButton02"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/ImageButton01"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/ImageButton01"
+        android:background="@null"
+        android:src="@drawable/batt4" />
+
+    <ImageButton
+        android:id="@+id/ImageButton03"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/ImageButton02"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/ImageButton02"
+        android:background="@null"
+        android:src="@drawable/batt5" />
+
+       <View
+           android:id="@+id/view2"
+           android:layout_width="fill_parent"
+           android:layout_height="1dp"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/oversigt5"
+           android:layout_marginTop="15dp"
+           android:background="@android:color/black" />
+
+       <ImageButton
+           android:id="@+id/nej10"
+           android:layout_width="100dp"
+           android:layout_height="40dp"
+           android:layout_alignBaseline="@+id/ja10"
+           android:layout_alignBottom="@+id/ja10"
+           android:layout_alignRight="@+id/ImageButton03"
+           android:background="@null"
+           android:src="@drawable/nej"
+           android:text="Nej" />
+
+       <ImageButton
+           android:id="@+id/ja10"
+           android:layout_width="100dp"
+           android:layout_height="40dp"
+           android:layout_alignLeft="@+id/oversigt5"
+           android:layout_below="@+id/TextView02"
+           android:layout_marginLeft="15dp"
+           android:background="@null"
+           android:src="@drawable/ja"
+           android:text="Ja" />
+
+       <TextView
+           android:id="@+id/TextView02"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/view2"
+           android:layout_centerHorizontal="true"
+           android:layout_marginBottom="10dp"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="15dp"
+           android:text="Mærker du flere symptomer end normalt?"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textSize="23sp" />
+
+       <ImageButton
+           android:id="@+id/oversigt5"
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:layout_alignLeft="@+id/textView1"
+           android:layout_below="@+id/textView1"
+           android:layout_marginLeft="20dp"
+           android:background="@null"
+           android:src="@drawable/batt1" />
+
+       <View
+           android:id="@+id/view3"
+           android:layout_width="fill_parent"
+           android:layout_height="1dp"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/nej10"
+           android:layout_marginTop="16dp"
+           android:background="@android:color/black" />
+
+       <EditText
+           android:id="@+id/editText1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_above="@+id/gem10"
+           android:layout_alignLeft="@+id/oversigt5"
+           android:layout_alignRight="@+id/nej10"
+           android:layout_below="@+id/view3"
+           android:layout_marginTop="18dp"
+           android:ems="10"
+           android:hint="Skriv kommentar her..." >
+
+           <requestFocus />
+       </EditText>
+
+       <ImageButton
+           android:id="@+id/gem10"
+           android:layout_width="90dp"
+           android:layout_height="wrap_content"
+           android:layout_alignParentBottom="true"
+           android:layout_centerHorizontal="true"
+           android:layout_marginBottom="18dp"
+           android:background="@null"
+           android:src="@drawable/gem"
+           android:text="Gem" />
+
+       <View
+           android:id="@+id/view4"
+           android:layout_width="fill_parent"
+           android:layout_height="1dp"
+           android:layout_alignParentLeft="true"
+           android:layout_alignTop="@+id/textView1"
+           android:background="@android:color/black" />
+
+       <TextView
+           android:id="@+id/TextView04"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/view1"
+           android:layout_centerHorizontal="true"
+           android:layout_margin="7dp"
+           android:text="Mandag 28/4"
+           android:textSize="25sp" />
+
+       <ImageButton
+           android:id="@+id/tilTir29"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignRight="@+id/TextView02"
+           android:layout_alignTop="@+id/tilSoen27"
+           android:background="@null"
+           android:src="@drawable/forward_button_calender" />
+
+       <ImageButton
+           android:id="@+id/tilSoen27"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignLeft="@+id/TextView02"
+           android:layout_below="@+id/view1"
+           android:background="@null"
+           android:src="@drawable/back_button_calender" />
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:layout_below="@+id/tilTir29"
+           android:text="Hvordan er dit energiniveau i dag?"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:textSize="22sp" />
+
+</RelativeLayout>

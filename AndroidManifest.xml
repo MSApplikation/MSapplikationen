@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ms"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="dk.scleroseforeningen.ms.MS">
+            
+        </activity>
+        
+             <activity
+            android:name="dk.scleroseforeningen.ms.FrokostReg">
+        </activity>      
+        <activity
+            android:name="dk.scleroseforeningen.ms.MadKaffe"></activity>
+        
+        <activity
+            android:name="dk.scleroseforeningen.ms.MadAnanas"></activity>
+        
+                  <activity
+            android:name="dk.scleroseforeningen.ms.AftensmadReg">
+        </activity>      
+        <activity
+            android:name="dk.scleroseforeningen.ms.MSStatusVis29"></activity>
+             
+        <activity
+            android:name="dk.scleroseforeningen.ms.MSStatusVis27"></activity>
+                       <activity
+            android:name="dk.scleroseforeningen.ms.MellemmaaltidReg">
+        </activity>      
+                  
+        <activity
+            android:name="dk.scleroseforeningen.ms.RegistrerMadTilbage">
+        </activity>       
+        
+        
+             <activity
+            android:name="dk.scleroseforeningen.ms.RegistrerMadFrem">
+        </activity>      
+        
+             
+             
+        <activity
+            android:name="dk.scleroseforeningen.ms.TilbageTil6">
+        </activity>
+        
+                <activity
+            android:name="dk.scleroseforeningen.ms.Vis26"></activity>
+                <activity
+                    android:name="dk.scleroseforeningen.ms.MSStatusTilKalender"></activity>
+                <activity
+            android:name="dk.scleroseforeningen.ms.Vis27"></activity>
+                <activity
+            android:name="dk.scleroseforeningen.ms.Vis29"></activity>
+                <activity
+            android:name="dk.scleroseforeningen.ms.Vis30">
+        </activity>
+        
+       <activity
+            android:name="dk.scleroseforeningen.ms.OpskriftPasta">
+        </activity>
+        
+                <activity
+                    android:name="dk.scleroseforeningen.ms.Uge17"></activity>
+                <activity
+                    android:name="dk.scleroseforeningen.ms.Uge19"></activity>
+                <activity
+                    android:name="dk.scleroseforeningen.ms.OpskriftOmelet"></activity>
+        <activity
+            android:name="dk.scleroseforeningen.ms.OpskriftLaks"></activity>
+        
+        <activity
+            android:name="dk.scleroseforeningen.ms.sluk">
+          
+        </activity>
+                
+        <activity
+            android:name="dk.scleroseforeningen.ms.MorgenReg">
+          
+        </activity>
+        <activity
+            android:name="dk.scleroseforeningen.ms.Dag">
+            
+        </activity>
+        <activity
+            android:name="dk.scleroseforeningen.ms.RegistrerMad"></activity>
+        <activity
+            android:name="dk.scleroseforeningen.ms.MSStatus"></activity>
+        <activity 
+            android:name="dk.scleroseforeningen.ms.DagKalender">
+            
+        </activity>
+        <activity
+            android:name="dk.scleroseforeningen.ms.Opskrifter"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity
+            android:name="dk.scleroseforeningen.ms.Kalender"></activity>
+            
+       
+        <activity
+            android:name="dk.scleroseforeningen.ms.searchTest">
+            
+        </activity>
+        <activity
+            android:name="dk.scleroseforeningen.ms.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

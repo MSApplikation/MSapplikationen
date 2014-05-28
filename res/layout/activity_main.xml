@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+     <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical" >
+    </LinearLayout>
+    
+    <ImageButton
+        android:id="@+id/information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/sluk"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_toLeftOf="@+id/registrerMad"
+        android:background="@null"
+        android:src="@drawable/profil" />
+    
+    <ImageButton
+        android:id="@+id/sluk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/linearLayout1"
+        android:layout_toRightOf="@+id/registrerMad"
+        android:background="@null"
+        android:src="@drawable/sluk" />
+    
+    <ImageButton
+        android:id="@+id/registrerMad"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:src="@drawable/regmad" />
+  
+    <ImageButton
+        android:id="@+id/MSStatus"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/registrerMad"
+        android:layout_below="@+id/registrerMad"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/msstatus" />
+
+    <ImageButton
+        android:id="@+id/opskrifter"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/MSStatus"
+        android:layout_below="@+id/MSStatus"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/opskrifter" />
+
+    <ImageButton
+        android:id="@+id/kalender"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/opskrifter"
+        android:layout_below="@+id/opskrifter"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/kalender" />
+
+</RelativeLayout>

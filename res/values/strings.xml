@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MS</string>
+    <string name="action_settings">Settings</string>
+    
+        <string-array name="opskrifter">
+        <item>Pasta med kødsovs</item>
+        <item>Lakselasagne</item>
+        <item>Laks med frisk pasta</item>
+        <item>Omelet med spinat</item>
+    </string-array>
+    
+         <string-array name="kost">
+        <item>2 x Appelsin</item>
+        <item>1 x Gulerod</item>
+        <item>1 x Ananas, 25g</item>
+        <item>2 x Æg</item>
+    </string-array>
+    
+    <string-array name="kost_t1">
+        <item>2 x Rugbrød, stk.</item>
+        <item>1 x Tun, dåse</item>
+        <item>1 x Spaghetti, 100g</item>
+        <item>4 x Pizzaslice</item>
+    </string-array>
+    
+    <string-array name="kost_t2">
+        <item>2 x Appelsin</item>
+        <item>1 x Gulerod</item>
+        <item>150 x Ananas, 25g</item>
+        <item>7 x Æg</item>
+    </string-array>
+    
+    <string-array name="kost_f1">
+        <item>1 x Laks, 100g</item>
+        <item>1 x Frisk pasta, 100g</item>
+        <item>2 x Spinat, 100g</item>
+        <item>1 x Øl, glas</item>
+    </string-array>
+    
+    <string-array name="kost_f2">
+        <item>2 x Appelsin</item>
+        <item>1 x Gulerod</item>
+        <item>150 x Ananas</item>
+        <item>7 x Æg</item>
+    </string-array>
+
+    </resources>

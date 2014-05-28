@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <ImageButton
+            android:id="@+id/registrer_mad_tilbage"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="92dp"
+            android:background="@drawable/tilbage"
+            android:src="@null" />
+    </FrameLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/frameLayout1"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:text="Oversigt"
+        android:textSize="29sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_centerHorizontal="true"
+        android:gravity="center|center_horizontal"
+        android:paddingTop="8dp"
+        android:text="Onsdag 30. april 2014"
+        android:textColor="@android:color/black"
+        android:textSize="13sp" />
+
+    <View
+        android:id="@+id/View01"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/oversigt5"
+        android:background="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/oversigt5"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view1"
+        android:background="@null"
+        android:src="@drawable/back_button_calender" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/view1"
+        android:background="@null"
+        android:src="@drawable/forward_button_calender" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/View02"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_marginBottom="14dp"
+        android:text="Symptomer:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/View02"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:paddingBottom="10dp"
+        android:text="Energiniveau:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/View01"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/batt5" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:text="Nej"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/View03"
+        android:layout_width="3dp"
+        android:layout_height="55dp"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_toRightOf="@+id/textView2"
+        android:background="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/tilStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/View02"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_toRightOf="@+id/View03"
+        android:background="@null"
+        android:src="@drawable/note_opret" />
+
+    <View
+        android:id="@+id/View04"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="36dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/View02"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp"
+        android:text="Kost:"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"
+        android:layout_alignBottom="@+id/View04"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/View02"
+        android:layout_toRightOf="@+id/textView1"
+        android:background="@null"
+        android:src="@drawable/note_opret" />
+
+    <ImageButton
+        android:id="@+id/Button01"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/uge"
+        android:text="Uge"
+        android:textSize="10sp" />
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_marginBottom="28dp"
+        android:src="@drawable/idag"
+        android:text="Dag"
+        android:textSize="10sp" />
+
+    <ImageButton
+        android:id="@+id/Button02"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/View03"
+        android:layout_alignTop="@+id/Button01"
+        android:src="@drawable/dato"
+        android:text="Gå til dato"
+        android:textSize="10sp" />
+
+    <ListView
+        android:id="@+id/kostDagList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Button01"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/View04"
+        android:entries="@array/kost_f2" >
+
+    </ListView>
+
+</RelativeLayout>

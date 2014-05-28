@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC" >
+
+    <FrameLayout
+        android:id="@+id/frameLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <ImageButton
+            android:id="@+id/registrer_mad_tilbage5_3"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="92dp"
+            android:background="@drawable/tilbage"
+            android:src="@null" />
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/frameLayout1"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:text="Registrér mad"
+        android:textSize="29sp" />
+
+    <ImageButton
+        android:id="@+id/oversigt5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="2dp"
+        android:background="@null"
+        android:src="@drawable/oversigt5" />
+    
+    <View
+        android:id="@+id/view2"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view1"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/registrer_mad_tilbage_t"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/view2"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view1"
+        android:background="@null"
+        android:src="@drawable/back_button_calender" />
+
+    <ImageButton
+        android:id="@+id/registrer_mad_frem"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/view2"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:background="@null"
+        android:src="@drawable/forward_button_calender" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/view2"
+        android:layout_below="@+id/frameLayout1"
+        android:layout_centerHorizontal="true"
+        android:gravity="center|center_horizontal"
+        android:text="Tirsdag 29. april 2014"
+        android:textColor="@android:color/black"
+        android:textSize="13sp" />
+
+    <ImageButton
+        android:id="@+id/morgenmad5"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/view2"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/morgenmad" />
+
+    <ImageButton
+        android:id="@+id/aftensmad5"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/frokost5"
+        android:layout_below="@+id/frokost5"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/aftensmad" />
+
+    <ImageButton
+        android:id="@+id/mellemmåltid5"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/morgenmad5"
+        android:layout_below="@+id/aftensmad5"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/mellemmaaltid" />
+
+    <ImageButton
+        android:id="@+id/frokost5"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@+id/morgenmad5"
+        android:layout_below="@+id/morgenmad5"
+        android:layout_marginTop="19dp"
+        android:src="@drawable/frokost" />
+
+</RelativeLayout>
